@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a={
+            name:"sayali",id:"103" //object literal
+        
+        }
+        console.log(a.name+" "+a.id);
+
+        var b=new Object();
+        b.name="saya";
+        b.id="103";
+        b.age="23";
+        document.write(d.name+" "+d.age+" "+d.id);
+
+        function abc(name,age,id){
+            this.name=name;
+            this.age=age;
+            this.id=id;
+        }
+        const d=new abc("Sayali",23,103);
+document.write("<br>")
+document.write(d.name+" "+d.age+" "+d.id);
+    
+abc.prototype.marks=70;
+
+var x=new abc("siddhesh",23,123);
+document.write("<br>");
+document.write(x.name+" "+x.age+" "+x.id+" "+x.marks);
+document.write("<br>");
+document.write(d.name+" "+d.age+" "+d.id+" "+d.marks);
+
+
+
+    </script>
+</head>
+<body>
+    <h1>Hello</h1>
+</body>
+</html>
